@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #E6E6E6;
+	border: 1px solid gray;
+}
+.container{
+	margin: 0px auto 0px auto;
+	width: 1000px;
+	height: 700px;
+	background-color: white;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+
+}
+h1{
+	margin-left: 30px;
+	padding-top: 30px;
+	font-family: sans-serif; 
+	font-size: 50px;
+}
+.header{
+	margin: 0px auto;
+	width: 935px;
+	height: 30px;
+	background-color: gray;
+}
+.header li{
+	display: inline-block;
+	padding: 7px 50px 3px 50px;
+	color: white;
+	vertical-align: middle;
+	font-family: tahoma;
+}
+.header li:hover{
+	background-color: black;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+
+}
+
+
+.side-bar{
+	margin: 30px;
+	width: 200px;
+	float: left;
+	
+	
+}
+.side-bar li:hover{
+	background-color: #E6E6E6;
+
+}
+.side-bar li{
+	border: 1px solid gray;
+	padding: 10px;
+	list-style-type: none;
+}
+
+.content{
+	width: 650px;
+	height: 465px;
+	margin: 30px 30px 10px 30px;
+	background-color: white;
+	float: right;
+
+}
+.footer{
+	margin: 510px auto 30px auto;
+	width: 935px;
+	height: 30px;
+	background-color: #e6e6e6;
+}
+.footer li{
+	display: inline-block;
+	padding: 7px 50px 3px 50px;
+	color: black;
+	font-family: tahoma;
+}
+.footer li:hover{
+	text-decoration: underline;
+	
+}
+.footer li:last-child{
+	text-decoration: none;
+}
+
+.My_Img{
+	width: 640px;
+	border: 1px solid gray;
+	 
+}
+
+p{
+	font-family: tahoma;
+	font-size: 0.8em;
+	
+}
